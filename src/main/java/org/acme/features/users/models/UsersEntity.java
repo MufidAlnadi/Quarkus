@@ -9,7 +9,7 @@ import java.sql.Timestamp;
 @Table(name = "users")
 public class UsersEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private Long id;
 
     @Column(name = "updated_at", nullable = false)
